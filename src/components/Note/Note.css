@@ -1,0 +1,38 @@
+.note{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    min-height: 200px;
+
+    box-sizing: border-box;
+    padding: 5px;
+
+    border: 2px solid black;
+
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.note__delete-btn{
+    position: absolute;
+    top: -12px;
+    right: -12px;
+
+    text-align: center;
+    width: 20px;
+    height: 20px;
+
+    border: 2px solid rgb(227, 126, 126);
+    border-radius: 50%;
+
+    font-weight: 700;
+    color: white;
+
+    background-color: rgb(243, 159, 159);
+
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+.app-header{
+    display: flex;
+    align-items: center;
+  
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .app-header__header{
+    margin-right: 30px;
+  }
+  
+  .update-btn{
+    width: 30px;
+    height: 30px;
+  
+    cursor: pointer;
+  }
+  
+  .update-btn__img {
+    width: 100%;
+  }
